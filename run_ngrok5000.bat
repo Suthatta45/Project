@@ -1,2 +1,2 @@
 ngrok authtoken 2TmvlY0uwaOsyRFT9V1emWifO9H_3T2FEmmnFagTExw27tKGD
-ngrok http 5000 -region jp
+ngrok http 5000 
