@@ -1,0 +1,92 @@
+if (text=="โรคไหม้"):
+        url10 = request.url_root + '/static/Untitled-4.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url10,url10)])
+    elif (text=="โรคใบจุดสีน้ำตาล"):
+        url11 = request.url_root + '/static/Untitled-2.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url11,url11)])
+    elif (text=="โรคขอบใบแห้ง"):
+        url12 = request.url_root + '/static/Untitled-3.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url12,url12)])
+    elif (text=="โรคใบสีส้ม"):
+        url13 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url13,url13)])
+    elif (text=="โรคใบขีดสีน้ำตาล"):
+        url14 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url14,url14)])
+    elif (text=="โรคใบวงสีน้ำตาล"):
+        url15 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url15,url15)])
+    elif (text=="โรคกาบใบแห้ง"):
+        url16 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url16,url16)])
+    elif (text=="โรคกาบใบเน่า"):
+        url17 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url17,url17)])
+    elif (text=="โรคเมล็ดด่าง"):
+        url18 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url18,url18)])
+    elif (text=="โรคถอดฝักดาบ"):
+        url19 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url19,url19)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url20 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url20,url20)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url21 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url21,url21)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url22 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url22,url22)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url23 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url23,url23)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url24 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url24,url24)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url25 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url25,url25)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url26 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url26,url26)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url27 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url27,url27)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url28 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url28,url28)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url29 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url29,url29)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url30 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url30,url30)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url31 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url31,url31)])
+    elif (text=="ภาพถ่ายการเรียนการสอน"):
+        url32 = request.url_root + '/static/Untitled-5.jpg'
+        line_bot_api.reply_message(event.reply_token,
+                                   [ImageSendMessage(url32,url32)])
