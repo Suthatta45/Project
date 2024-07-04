@@ -15,8 +15,12 @@ from PIL import Image, ImageOps
 np.set_printoptions(suppress=True)
 
 # Load the model
+<<<<<<< HEAD
 model = load_model(
     "MobileNetV2_BEAM_SGD_NoAUG_lr0.001_Fold3.h5", compile=False)
+=======
+model = load_model("MobileNetV2_BEAM_SGD_NoAUG_lr0.001_Fold3.h5", compile=False)
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
 
 # Load the labels
 class_names = open("labels.txt", "r").readlines()
@@ -35,7 +39,10 @@ handler = WebhookHandler(channel_secret)
 app = Flask(__name__)
 app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_host=1, x_proto=1)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
 def start_loading_animation(user_id):
     url = "https://api.line.me/v2/bot/chat/loading/start"
     headers = {
@@ -49,8 +56,12 @@ def start_loading_animation(user_id):
     response = requests.post(url, headers=headers, json=payload)
     return response
 
+<<<<<<< HEAD
 
 @app.route("/", methods=["GET", "POST"])
+=======
+@app.route("/", methods=["GET","POST"])
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
 def home():
     try:
         signature = request.headers["X-Line-Signature"]
@@ -65,8 +76,13 @@ def home():
 def handle_text_message(event):
     text = event.message.text
     user_id = event.source.user_id
+<<<<<<< HEAD
     print(text)
 
+=======
+    
+    
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
     if text.lower() == "วิธีใช้":
         start_loading_animation(user_id)  # Start the loading animation
         quick_reply_items = [
@@ -99,6 +115,7 @@ def handle_text_message(event):
     if text == "เว็บไซต์":
         start_loading_animation(user_id)  # Start the loading animation
         text_out = "https://www.opsmoac.go.th/about-moac_province?fbclid=IwAR1g5HZbzSaIogR-Xr-K7ql5q9jmUyaUcsZIl-blyWXz0rpfwkcx_rICEEA_aem_AT1cLPZjfNHI7eHoqDyw4pQySw7TkZwQ0wJdTV-y6GvRaT2eODqSEnxH8g9rqldde4M"
+<<<<<<< HEAD
         line_bot_api.reply_message(
             event.reply_token, [TextSendMessage(text=text_out)])
     if text == "ข้อมูลติดต่อ ที่อยู่":
@@ -107,6 +124,14 @@ def handle_text_message(event):
         line_bot_api.reply_message(
             event.reply_token, [TextSendMessage(text=text_out)])
 
+=======
+        line_bot_api.reply_message(event.reply_token, [TextSendMessage(text=text_out)])
+    if text == "ข้อมูลติดต่อ ที่อยู่":
+        start_loading_animation(user_id)  # Start the loading animation
+        text_out = "https://www.nfc.or.th/contactusp"
+        line_bot_api.reply_message(event.reply_token, [TextSendMessage(text=text_out)])
+    
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
     if text.lower() == "ความรู้เกี่ยวกับโรคข้าว":
         start_loading_animation(user_id)  # Start the loading animation
         bubble_json = {
@@ -546,22 +571,37 @@ def handle_text_message(event):
         # ส่ง Flex Message กลับไปยังผู้ใช้งาน
         line_bot_api.reply_message(event.reply_token, flex_message)
 
+<<<<<<< HEAD
 
 @handler.add(MessageEvent, message=ImageMessage)
 def handle_image_message(event):
     message_content = line_bot_api.get_message_content(event.message.id)
     static_tmp_path = os.path.join(os.path.dirname(
         __file__), 'static', 'tmp').replace("\\", "/")
+=======
+@handler.add(MessageEvent, message=ImageMessage)
+def handle_image_message(event):
+    message_content = line_bot_api.get_message_content(event.message.id)
+    static_tmp_path = os.path.join(os.path.dirname(__file__), 'static', 'tmp').replace("\\", "/")
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
     with tempfile.NamedTemporaryFile(dir=static_tmp_path, prefix='jpg' + '-', delete=False) as tf:
         for chunk in message_content.iter_content():
             tf.write(chunk)
         tempfile_path = tf.name
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
     dist_path = tempfile_path + '.jpg'
     os.rename(tempfile_path, dist_path)
     filename_image = os.path.basename(dist_path)
     filename_fullpath = dist_path.replace("\\", "/")
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
     image = Image.open(filename_fullpath).convert("RGB")
     size = (224, 224)
     image = ImageOps.fit(image, size, Image.Resampling.LANCZOS)
@@ -578,9 +618,16 @@ def handle_image_message(event):
     url2 = request.url_root + '/static/2.jpg'
     url3 = request.url_root + '/static/3.jpg'
     url4 = request.url_root + '/static/4.jpg'
+<<<<<<< HEAD
 
     user_id = event.source.user_id
 
+=======
+    
+    user_id = event.source.user_id
+
+    
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
     if confidence_score >= 0.70:
         if index == 0:
             start_loading_animation(user_id)  # Start the loading animation
@@ -616,11 +663,17 @@ def handle_image_message(event):
             TextSendMessage(text="ไม่สามารถทำนายได้ กรุณาถ่ายรูปใหม่")
         ])
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
 @app.route('/static/<path:path>')
 def send_static_content(path):
     return send_from_directory('static', path)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e5cb2ceff850a5d83bc72e033cc0776c88de715
 if __name__ == "__main__":
     app.run()
