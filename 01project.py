@@ -115,7 +115,7 @@ def handle_text_message(event):
                     "type": "bubble",
                     "hero": {
                         "type": "image",
-                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_2.png",
+                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_9.png",
                         "size": "full",
                         "aspectRatio": "20:13",
                         "aspectMode": "cover"
@@ -130,7 +130,7 @@ def handle_text_message(event):
                                 "text": "ความรู้ทั่วไปเกี่ยวกับโรคข้าว",
                                 "weight": "bold",
                                 "size": "lg",
-                                "color": "#0B19B7FF",
+                                "color": "#543308FF",
                                 "align": "center",
                                 "wrap": True,
                                 "contents": []
@@ -149,7 +149,7 @@ def handle_text_message(event):
                                     "label": "โรคไหม้",
                                     "text": "โรคไหม้"
                                 },
-                                "color": "#00D3F1FF",
+                                "color": "#F0D8B4FF",
                                 "style": "secondary"
                             },
                             {
@@ -159,7 +159,7 @@ def handle_text_message(event):
                                     "label": "โรคใบจุดสีน้ำตาล",
                                     "text": "โรคใบจุดสีน้ำตาล"
                                 },
-                                "color": "#00D3F1FF",
+                                "color": "#F0D8B4FF",
                                 "style": "secondary"
                             },
                             {
@@ -169,7 +169,7 @@ def handle_text_message(event):
                                     "label": "โรคขอบใบแห้ง",
                                     "text": "โรคขอบใบแห้ง"
                                 },
-                                "color": "#00D3F1FF",
+                                "color": "#F0D8B4FF",
                                 "style": "secondary"
                             },
                             {
@@ -179,7 +179,7 @@ def handle_text_message(event):
                                     "label": "โรคใบสีส้ม",
                                     "text": "โรคใบสีส้ม"
                                 },
-                                "color": "#00D3F1FF",
+                                "color": "#F0D8B4FF",
                                 "style": "secondary"
                             }
                         ]
@@ -189,7 +189,7 @@ def handle_text_message(event):
                     "type": "bubble",
                     "hero": {
                         "type": "image",
-                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_3.png",
+                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_10.png",
                         "size": "full",
                         "aspectRatio": "20:13",
                         "aspectMode": "cover"
@@ -204,7 +204,7 @@ def handle_text_message(event):
                                 "text": "ความรู้ทั่วไปเกี่ยวกับโรคข้าว",
                                 "weight": "bold",
                                 "size": "lg",
-                                "color": "#846500FF",
+                                "color": "#543308FF",
                                 "align": "center",
                                 "wrap": True,
                                 "contents": []
@@ -223,7 +223,7 @@ def handle_text_message(event):
                                     "label": "โรคใบขีดสีน้ำตาล",
                                     "text": "โรคใบขีดสีน้ำตาล"
                                 },
-                                "color": "#F4EA39FF",
+                                "color": "#F0D8B4FF",
                                 "style": "secondary"
                             },
                             {
@@ -233,7 +233,7 @@ def handle_text_message(event):
                                     "label": "โรคใบวงสีน้ำตาล",
                                     "text": "โรคใบวงสีน้ำตาล"
                                 },
-                                "color": "#F4EA39FF",
+                                "color": "#F0D8B4FF",
                                 "style": "secondary"
                             },
                             {
@@ -243,7 +243,7 @@ def handle_text_message(event):
                                     "label": "โรคกาบใบแห้ง",
                                     "text": "โรคกาบใบแห้ง"
                                 },
-                                "color": "#F4EA39FF",
+                                "color": "#F0D8B4FF",
                                 "style": "secondary"
                             },
                             {
@@ -253,7 +253,7 @@ def handle_text_message(event):
                                     "label": "โรคกาบใบเน่า",
                                     "text": "โรคกาบใบเน่า"
                                 },
-                                "color": "#F4EA39FF",
+                                "color": "#F0D8B4FF",
                                 "style": "secondary"
                             }
                         ]
@@ -263,7 +263,7 @@ def handle_text_message(event):
                     "type": "bubble",
                     "hero": {
                         "type": "image",
-                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_4.png",
+                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_11.png",
                         "size": "full",
                         "aspectRatio": "20:13",
                         "aspectMode": "cover"
@@ -278,7 +278,7 @@ def handle_text_message(event):
                                 "text": "ความรู้ทั่วไปเกี่ยวกับโรคข้าว",
                                 "weight": "bold",
                                 "size": "lg",
-                                "color": "#A40083FF",
+                                "color": "#543308FF",
                                 "align": "center",
                                 "wrap": True,
                                 "contents": []
@@ -297,8 +297,8 @@ def handle_text_message(event):
                                     "label": "โรคเมล็ดด่าง",
                                     "text": "โรคเมล็ดด่าง"
                                 },
-                                "color": "#FF00CDFF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             },
                             {
                                 "type": "button",
@@ -307,8 +307,8 @@ def handle_text_message(event):
                                     "label": "โรคถอดฝักดาบ",
                                     "text": "โรคถอดฝักดาบ"
                                 },
-                                "color": "#FF00CDFF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             },
                             {
                                 "type": "button",
@@ -317,8 +317,8 @@ def handle_text_message(event):
                                     "label": "โรคกล้าเน่า",
                                     "text": "โรคกล้าเน่า"
                                 },
-                                "color": "#FF00CDFF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             },
                             {
                                 "type": "button",
@@ -327,8 +327,8 @@ def handle_text_message(event):
                                     "label": "โรคลำต้นเน่า",
                                     "text": "โรคลำต้นเน่า"
                                 },
-                                "color": "#FF00CDFF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             }
                         ]
                     }
@@ -337,7 +337,7 @@ def handle_text_message(event):
                     "type": "bubble",
                     "hero": {
                         "type": "image",
-                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_1.png",
+                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_12.png",
                         "size": "full",
                         "aspectRatio": "20:13",
                         "aspectMode": "cover"
@@ -352,7 +352,7 @@ def handle_text_message(event):
                                 "text": "ความรู้ทั่วไปเกี่ยวกับโรคข้าว",
                                 "weight": "bold",
                                 "size": "lg",
-                                "color": "#B96000FF",
+                                "color": "#543308FF",
                                 "align": "center",
                                 "wrap": True,
                                 "contents": []
@@ -371,8 +371,8 @@ def handle_text_message(event):
                                     "label": "โรคดอกกระถิน",
                                     "text": "โรคดอกกระถิน"
                                 },
-                                "color": "#FFA010FF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             },
                             {
                                 "type": "button",
@@ -381,8 +381,8 @@ def handle_text_message(event):
                                     "label": "โรคใบขีดโปร่งแสง",
                                     "text": "โรคใบขีดโปร่งแสง"
                                 },
-                                "color": "#FFA010FF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             },
                             {
                                 "type": "button",
@@ -391,8 +391,8 @@ def handle_text_message(event):
                                     "label": "โรคใบหงิก",
                                     "text": "โรคใบหงิก"
                                 },
-                                "color": "#FFA010FF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             },
                             {
                                 "type": "button",
@@ -401,8 +401,8 @@ def handle_text_message(event):
                                     "label": "โรคเขียวเตี้ย",
                                     "text": "โรคเขียวเตี้ย"
                                 },
-                                "color": "#FFA010FF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             }
                         ]
                     }
@@ -411,7 +411,7 @@ def handle_text_message(event):
                     "type": "bubble",
                     "hero": {
                         "type": "image",
-                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_5.png",
+                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_13.png",
                         "size": "full",
                         "aspectRatio": "20:13",
                         "aspectMode": "cover"
@@ -426,7 +426,7 @@ def handle_text_message(event):
                                 "text": "ความรู้ทั่วไปเกี่ยวกับโรคข้าว",
                                 "weight": "bold",
                                 "size": "lg",
-                                "color": "#000D5DFF",
+                                "color": "#543308FF",
                                 "align": "center",
                                 "wrap": True,
                                 "contents": []
@@ -445,8 +445,8 @@ def handle_text_message(event):
                                     "label": "โรคหูด",
                                     "text": "โรคหูด"
                                 },
-                                "color": "#2868FFFF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             },
                             {
                                 "type": "button",
@@ -455,8 +455,8 @@ def handle_text_message(event):
                                     "label": "โรคใบสีแสด",
                                     "text": "โรคใบสีแสด"
                                 },
-                                "color": "#2868FFFF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             },
                             {
                                 "type": "button",
@@ -465,8 +465,8 @@ def handle_text_message(event):
                                     "label": "โรคเหลืองเตี้ย",
                                     "text": "โรคเหลืองเตี้ย"
                                 },
-                                "color": "#2868FFFF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             },
                             {
                                 "type": "button",
@@ -475,8 +475,8 @@ def handle_text_message(event):
                                     "label": "โรครากปม",
                                     "text": "โรครากปม"
                                 },
-                                "color": "#2868FFFF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             }
                         ]
                     }
@@ -485,7 +485,7 @@ def handle_text_message(event):
                     "type": "bubble",
                     "hero": {
                         "type": "image",
-                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_6.png",
+                        "url": "https://itbru.com/rice_recognition/640112418084/Screenshot_14.png",
                         "size": "full",
                         "aspectRatio": "20:13",
                         "aspectMode": "cover"
@@ -500,7 +500,7 @@ def handle_text_message(event):
                                 "text": "ความรู้ทั่วไปเกี่ยวกับโรคข้าว",
                                 "weight": "bold",
                                 "size": "lg",
-                                "color": "#62007AFF",
+                                "color": "#543308FF",
                                 "align": "center",
                                 "wrap": True,
                                 "contents": []
@@ -519,8 +519,8 @@ def handle_text_message(event):
                                     "label": "โรคใบแถบแดง",
                                     "text": "โรคใบแถบแดง"
                                 },
-                                "color": "#D62EFFFF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             },
                             {
                                 "type": "button",
@@ -529,8 +529,8 @@ def handle_text_message(event):
                                     "label": "โรคเมาตอซัง",
                                     "text": "โรคเมาตอซัง"
                                 },
-                                "color": "#D62EFFFF",
-                                "style": "primary"
+                                "color": "#F0D8B4FF",
+                                "style": "secondary"
                             }
                         ]
                     }
@@ -580,10 +580,11 @@ def handle_image_message(event):
 
     user_id = event.source.user_id
 
-    if confidence_score >= 0.70:
+    if confidence_score >= 0.90:
         if index == 0:
             start_loading_animation(user_id)  # Start the loading animation
             text_out = f"มีโอกาศเป็นโรค ขอบใบแห้ง ประมาณ: {confidence_score * 100:.2f}%"
+            print(text_out)
             line_bot_api.reply_message(event.reply_token, [
                 TextSendMessage(text=text_out),
                 ImageSendMessage(url1, url1)
@@ -591,6 +592,7 @@ def handle_image_message(event):
         elif index == 1:
             start_loading_animation(user_id)  # Start the loading animation
             text_out = f"มีโอกาศเป็นโรค โรคไหม้ ประมาณ: {confidence_score * 100:.2f}%"
+            print(text_out)
             line_bot_api.reply_message(event.reply_token, [
                 TextSendMessage(text=text_out),
                 ImageSendMessage(url2, url2)
@@ -605,12 +607,14 @@ def handle_image_message(event):
         elif index == 3:
             start_loading_animation(user_id)  # Start the loading animation
             text_out = f"มีโอกาศเป็นโรค ใบสีส้ม ประมาณ: {confidence_score * 100:.2f}%"
+            print(text_out)
             line_bot_api.reply_message(event.reply_token, [
                 TextSendMessage(text=text_out),
                 ImageSendMessage(url4, url4)
             ])
     else:
         start_loading_animation(user_id)  # Start the loading animation
+        print(text_out)
         line_bot_api.reply_message(event.reply_token, [
             TextSendMessage(text="ไม่สามารถทำนายได้ กรุณาถ่ายรูปใหม่")
         ])
